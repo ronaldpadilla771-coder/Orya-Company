@@ -538,7 +538,29 @@
 </header>
 
 <main id="main">
+<section id="contacto" style="padding:60px 20px;text-align:center;">
+  <h2>Hablar con un experto</h2>
+  <p>Cuéntanos qué necesita tu empresa y te responderemos por correo.</p>
 
+  <form action="https://formspree.io/f/mrendvbv" method="POST"
+        style="max-width:500px;margin:30px auto;display:flex;flex-direction:column;gap:15px;">
+
+    <input type="text" name="nombre" placeholder="Tu nombre" required
+           style="padding:14px;border-radius:10px;border:1px solid #ccc;">
+
+    <input type="email" name="email" placeholder="Tu correo" required
+           style="padding:14px;border-radius:10px;border:1px solid #ccc;">
+
+    <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje" required
+              style="padding:14px;border-radius:10px;border:1px solid #ccc;"></textarea>
+
+    <button type="submit"
+            style="background:#2951db;color:white;padding:14px;border:none;border-radius:12px;font-weight:bold;cursor:pointer;">
+      Hablar con un experto
+    </button>
+
+  </form>
+</section>
   <!-- ==========================================================
        HERO
   ========================================================== -->
